@@ -23,8 +23,8 @@ def process_planilha(input_file_path, output_file_path):
     new_marks_df.to_excel(output_file_path, index=False)
 
 # Caminho do arquivo de entrada e de saída
-input_file_path = 'AMERF_o_8_Ano_of.xls'
-output_file_path = 'AMERF_o_8_Ano_sep.xlsx'
+input_file_path = 'AMERF_6_ano_2_bimestre_of.xls' #planilha gerada pelo app EVABEE
+output_file_path = 'AMERF_o_6_Ano_sep.xlsx'
 
 # Processar a planilha
 process_planilha(input_file_path, output_file_path)
